@@ -14,7 +14,7 @@ $this->getServer()->getPluginManager()->registerEvents($this, $this);
 }
 public function onTap(PlayerInteractEvent $event){
 $player = $event->getPlayer();
-if ($event->getBlock ()->getId () == Item::MOBSPAWNER) {
+if ($event->getBlock ()->getId () == Item::MONSTER_SPAWNER) {
 $enchantment = Enchantment::getEnchantment(9);
 $enchantment->setLevel(1);
 $item = $player->getInventory()->getItemInHand();
