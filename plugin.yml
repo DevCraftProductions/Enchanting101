@@ -1,0 +1,6 @@
+name: Enchanting101
+version: 0.0.1
+api: [1.0.0]
+author: itmedevcraft_
+description: Implements Enchanting into PocketMine!
+main: Enchanting\Enchanting
